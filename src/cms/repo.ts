@@ -5,6 +5,7 @@ import { CMS_KEYS, sanitize, type CmsDocs, type CmsKey } from "./schema";
 
 // المحتوى: منشور (للجميع) + مسودات ونسخ (content.edit). في Supabase النشر والاسترجاع دالتان على الخادم.
 
+
 export type Partial5 = { [K in CmsKey]?: CmsDocs[K] };
 export interface Meta {
   at: string;
